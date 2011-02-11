@@ -1,5 +1,4 @@
-This is a copy and paste plugin for Rhythmbox
-to skip 20 seconds in a song when you press
-ctrl-v
+Rhythmbox plugin, skips 20s of current song.
 
-VERY UGLY hack
+install with install.sh
+use ctrl-v to skip forward
