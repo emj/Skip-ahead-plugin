@@ -1,6 +1,6 @@
 # Skips ahead in the currently played song. 
 # GPLv3 licensed.
-# Author: Mr Copy and Paste
+# Author: Mr Copy and Paste & Erik Johansson <emj@kth.se>
 # 
 import rb
 #import rhythmdb
@@ -39,7 +39,7 @@ class TimeSkipper(rb.Plugin):
         ui = shell.get_ui_manager()
 
         # Create Actions for the plugin
-        action = gtk.Action ('SkipAheadInSong', _('Skip 20 seconds'),
+        action = gtk.Action ('SkipAhead', _('Skip 20 seconds'),
                              _('Skips 20 seconds into the song'),
                              'lastfm')
         activate_id = action.connect ('activate', self.on_skip, shell)
