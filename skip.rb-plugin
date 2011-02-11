@@ -1,0 +1,9 @@
+[RB Plugin]
+Loader=python
+Module=skip
+IAge=1
+Name=skip
+Description=Skip ahead to amount of seconds in audio track.
+Authors=Mr Copy and Paste & Erik Johansson <emj@kth.se>
+Copyright=Copyright © 2011 Erik Johansson
+Website=http://osm.org/
